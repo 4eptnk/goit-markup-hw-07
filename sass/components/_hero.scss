@@ -6,11 +6,13 @@
   max-width: 1600px;
   background-color: $background-color;
   background-image: linear-gradient(
-      to right rgba(47, 48, 58, 0.4),
+      to right,
+      rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    )
+    ),
     url(.././photo/background.jpg);
 }
+
 .hero.container {
   display: flex;
   align-items: center;
